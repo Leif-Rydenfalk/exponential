@@ -1,0 +1,20 @@
+[package]
+name = "exponential"
+version = "0.3.0"
+edition = "2021"
+
+[dependencies]
+# rendering and windowing
+egui_wgpu_backend = "0.19"
+pollster = "0.2"
+egui = "0.19"
+epi = "0.17"
+egui_winit_platform = "0.16"
+wgpu = "0.13"
+winit = { version="0.27.3", features = ["x11"]}
+egui_demo_lib = "0.19"
+
+
+# game
+chrono = "0.4"
+break_infinity = "0.3.0"
